@@ -3,7 +3,7 @@ function indexOfIgnoreCase(s1, s2) {
   s2 = s2.toLowerCase().trim();
 
   if(s1.includes(s2)){
-	  return s1.indexoF(s2)
+	  return s1.indexOf(s2);
   }
   else if(!s1.includes(s2)){
 	  return -1
